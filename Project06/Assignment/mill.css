@@ -1,0 +1,36 @@
+/*
+Name: Elisabeth Feeley
+Date: 6/1/2012
+Description: Page CSS
+Assistance: N/A
+*/
+
+body {
+   font-family: sans-serif;
+   color: black;
+}
+   
+#header {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 700px;
+   background-color: blue;
+}  
+
+
+#header p {
+   padding: 0px;
+   margin: 0px;
+} 
+
+#header p a {
+   letter-spacing: 5px;
+   color: white;
+   background-color: blue;
+   font-weight: bold;
+}
+
+#footer {
+   float: right;
+}

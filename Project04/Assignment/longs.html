@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+	Name: Elisabeth Feeley
+	Date: 5/15/2012
+	Description: Longs Trail Intinerary
+	Assistance: Looked at your solution page for clues to answer. All the #point_ css needed was the a after it. Also, changed the size of the numbered points to look better.
+-->	 
+
+<head>
+   <title>Longs Peak Online Map</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+
+   <style type="text/css" media="screen, tv">
+      body {
+         font-family: sans-serif; 
+         margin: 20px; 
+         margin-bottom: 150px;
+      }
+      
+      h2{
+         margin-top: 0px;
+      }
+      
+      img{
+         border-width: 0px; 
+         display: block;
+      }
+      
+      #summary{
+         width: 600px; 
+         margin-bottom: 20px;
+      }
+      
+      a {
+         text-decoration: none;
+      }
+      
+      #online_map {
+         width: 600px;
+         height: 294px;
+         border: 1px solid black;
+         background-image: url(lpmap.jpg);
+         position: relative;
+         left: 0px; 
+         top: 0px;
+      }
+
+      .notes p {
+         font-size: 8pt;
+         margin: 5px 5px 5px 5px;
+      }
+      
+      .notes span {
+         color: yellow;
+      }
+      
+      .notes a {
+         width: 19px;
+         height: 18px;
+         overflow: hidden;
+         background-color: blue;
+         color: white;
+         z-index: 1;
+      }
+      
+      .notes p a:hover {
+         width: 150px;
+         height: 170px;
+         overflow: visible;
+         z-index: 2;
+      }
+
+      #point0 a {
+         position: absolute;
+         left: 560px;
+         top: 60px;
+      }
+      
+      #point1 a {
+         position: absolute;
+         left: 277px;
+         top: 90px;
+      }
+      
+      #point2 a {
+         position: absolute;
+         left: 175px;
+         top: 0px;
+      }
+      
+      #point3 a {
+         position: absolute;
+         left: 110px;
+         top: 115px;
+      }
+      
+      #point4 a {
+         position: absolute;
+         left: 55px;
+         top: 165px;
+      }
+      
+      #point5 a {
+         position: absolute;
+         left: 5px;
+         top: 180px;
+      }
+      
+      #point6 a {
+         position: absolute;
+         left: 15px;
+         top: 222px;
+      }
+      
+      #point7 a {
+         position: absolute;
+         left: 50px;
+         top: 245px;
+      }
+      
+      #point8 a {
+         position: absolute;
+         left: 100px;
+         top: 245px;
+      }
+      
+      #point9 a {
+         position: absolute;
+         left: 90px;
+         top: 220px;
+      }
+   </style>
+
+   <style type="text/css" media="print">
+      body            {font-family: sans-serif}
+      a               {text-decoration: none}
+      h2:after        {content: " Trail Itinerary"}
+      #instructions, h2 span, .notes img   {display: none}
+      .notes p        {display: inline}
+      .notes span     {font-weight: bold}
+      .notes          {margin: 20px; display: list-item; list-style-type: disc}
+   </style>
+
+</head>
+
+<body>
+   <div id="summary">
+
+      <h2>Longs Peak <span>Online Trail Map</span></h2>
+
+      <p>
+         At 14,255 feet, Longs Peak towers above all other summits in Rocky Mountain 
+         National Park. The summer is the only season in which the peak can be climbed 
+         by a non-technical route. Early mornings break calm, clouds build in the 
+         afternoon sky, often exploding in storms of brief, heavy rain, thunder and 
+         dangerous lightning. Begin your hike early, way before dawn, to be back below 
+         timberline before the weather turns for the worse.
+      </p>
+      <p>
+         The Keyhole Route, Longs Peak's only non-technical hiking pathway, is a 16 
+         mile round trip with an elevation gain of 4,850 feet. Though non-technical, 
+         the Keyhole Route is still challenging and is not recommended for those who 
+         are afraid of heights or exposed ledges. Hikers should be properly outfitted 
+         with clothing, food and water. Use caution when ascending or descending steep 
+         areas. Don't be afraid to back down when bad weather threatens.
+      </p>
+
+      <p id="instructions">
+         Move your mouse pointer over the numbered landmarks in the map to preview the hike.
+      </p>
+   </div>
+
+   <div id="online_map">
+
+      <div class="notes" id="point0">
+            <p>
+            <a href="longs.html"><img src="image0.jpg" alt="" />
+               <span>3:30 a.m.</span> Start from the Longs Peak Ranger Station, 
+                nine miles south of Estes Park. Be sure to pack food, extra water, 
+                sunblock, and warm clothes, gloves, and caps.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point1">
+            <p>
+            <a href="longs.html"><img src="image1.jpg" alt="" />
+               <span>5:30 a.m.</span> Stop at Mills Moraine for a view of the 
+               sunrise.
+           </a>
+           </p>
+      </div>
+
+      <div class="notes" id="point2">
+            <p>
+            <a href="longs.html"><img src="image2.jpg" alt="" />
+               <span>7:30 a.m.</span> Time for break at Granite Pass.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point3">
+            <p>
+            <a href="longs.html"><img src="image3.jpg" alt="" />
+               <span>8:30 a.m.</span> Climb through the Boulder Field on the 
+               way to the Keyhole.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point4">
+            <p>
+            <a href="longs.html"><img src="image4.jpg" alt="" />
+               <span>9:00 a.m.</span> Stop at the
+               Agnes Vaille shelter for a well-deserved breakfast.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point5">
+            <p>
+            <a href="longs.html"><img src="image5.jpg" alt="" />
+               <span>9:30 a.m.</span> It's time to go through
+               the Keyhole. Be prepared for heavy winds.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point6">
+            <p>
+            <a href="longs.html"><img src="image6.jpg" alt="" />
+               <span>10:00 a.m.</span> Follow the painted targets along the Ledges.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point7">
+            <p>
+            <a href="longs.html"><img src="image7.jpg" alt="" />
+               <span>11:00 a.m.</span> Take special care when crossing the Narrows.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point8">
+            <p>
+            <a href="longs.html"><img src="image8.jpg" alt="" />
+               <span>11:15 a.m.</span> You're almost there! Climb the Homestretch
+               to reach the summit.
+            </a>
+            </p>
+      </div>
+
+      <div class="notes" id="point9">
+            <p>
+            <a href="longs.html"><img src="image9.jpg" alt="" />
+               <span>11:45 a.m.</span> Congratulations, you've reached the top!
+               Time for lunch and a few photos.
+            </a>
+            </p>
+      </div>
+   
+   </div>
+   
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer">
+				<img src="http://www.w3.org/Icons/valid-xhtml10" 
+				  alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+			</p>
+         
+         <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/*
+	Name: Elisabeth Feeley
+	Date: 5/14/2012
+	Description: Print Media Css
+	Assistance: N/A
+*/
+
+@page {
+   size: 8.5in 11in portrait;
+   margin: .5in;
+}
+
+#head, #links, address {
+   display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: sans-serif;
+}
+
+#sample_image {
+   page-break-before:always;
+   text-align: center;
+}
+
+#sample_image img {
+   width: 7in;
+   height: 9.1in
+}

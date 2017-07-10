@@ -1,0 +1,89 @@
+/*
+	Name: Elisabeth Feeley
+	Date: 5/2/2012
+	Description: Wheels CSS Midterm
+	Assistance: N/A
+*/
+
+body{
+   background: white url(body.jpg) repeat-y;
+   font-family: Verdana, Helvetica, sans-serif;
+   margin: 0px 0px 0px 0px
+}
+
+
+p {margin: 
+   10px 20px 20px 10px;
+}
+
+blockquote {
+   width: 200px;
+   padding: 10px; 
+   font-size: 16pt;
+   color: white; 
+   border: 3px solid black; 
+   background: rgb(255, 204, 0) url(block.jpg) repeat-x;
+   float: right; 
+   margin: 5px 10px 5px 5px;
+}
+
+a{
+   display: block;
+   padding: 2px; 
+   border: 1px solid black; 
+   background-color: rgb(255, 255, 192);
+   text-decoration: none; 
+   margin: 5px 5px 5px 0px; 
+   font-size: 10pt;
+}
+
+address{
+   text-align: center;
+   clear: both;
+   border-top: 1px solid black;
+   padding: 10px; 
+   font-style: normal;
+   font-size: 10pt; 
+   background-color: white;
+}
+
+#column1 {
+   width: 140px;
+   padding-left: 10px;
+   padding-top: 20px;
+   float: left;
+}
+
+#column2 {
+   width: 40%;
+   float: left;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+
+#column3 {
+   width: 40%;
+   float: left;
+}
+
+h1 {
+   text-align: center;
+   height: 100px;
+   margin: 0px 0px 0px 0px;
+   background-color: white;
+   background: white url(h1back.jpg) repeat-x;
+   border-bottom: 1px solid black
+}
+
+h2 {
+   text-indent: 30px;
+   color: white;
+   background-color: rgb(108,87,12);
+   letter-spacing: 8pt;
+   margin: 0px 0px 0px 0px;
+   font-variant: small-caps;
+}
+
+h3 {
+   margin-left: 3px;
+}

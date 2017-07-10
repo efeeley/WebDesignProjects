@@ -1,0 +1,58 @@
+	/*
+   Name: Elisabeth Feeley
+	Date: 6/1/2012
+	Description: Form CSS
+	Assistance: N/A
+   */
+
+
+#form {
+   position: relative;
+   top: 100px;
+   width: 650px;
+}
+   
+fieldset {
+   margin-bottom: 10px;
+   padding: 10px;
+   background-color: aliceblue;
+}
+
+fieldset #contact {
+   width: 600px;
+}
+
+label.blockLabel {
+   display: block;
+   position: relative;
+   margin: 12px 0px;
+}
+
+label.blockLabel input {
+   position: absolute;
+   left: 150px;
+}
+
+#form span {
+   color: red;
+}
+
+label.indentLabel {
+   margin-left: 150px;
+}
+
+#fName, #lName, #street {
+   width: 25em;
+}
+
+#phone, #city {
+   width: 10em;
+}
+
+#state {
+   width: 3em;
+}
+
+#zip {
+   width: 7em;
+}

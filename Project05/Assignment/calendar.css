@@ -1,0 +1,56 @@
+/*
+	Name: Elisabeth Feeley
+	Date: 5/22/2012
+	Description: calendar CSS
+	Assistance: N/A
+*/
+
+table.calendar {
+   border-collapse: separate;
+   border-spacing: 5px;
+   font-size: 8px;
+}
+
+table.calendar caption {
+   text-align: left;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+
+table.calendar col {
+   width: 14%;
+}
+
+table.calendar col.weekends {
+   background-color: rgb(255,232,232);
+}
+
+table.calendar thead {
+   background-color: red;
+   color: white;
+   letter-spacing: 5px;
+}
+
+table.calendar thead tr {
+   height: 5%;
+}  
+
+table.calendar tbody tr {
+   height: 19%;
+}
+
+table.calendar tbody td {
+	border: 1px solid gray;	
+	vertical-align: top;
+}
+
+table.calendar h3 {
+   font-size: 8px;
+   margin: 0px;
+   padding: 0px;
+}
+
+table.calendar dl, table.calendar dd, table.calendar dt {
+   margin: 0px;
+   padding: 0px;
+}
